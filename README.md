@@ -1,1 +1,1 @@
-# Aitor-Huanca-PT2
+# Descripció i observacions del projecte
