@@ -1,2 +1,2 @@
-# Manual de configuració d’ownCloud
+# Manual de configuració
 
