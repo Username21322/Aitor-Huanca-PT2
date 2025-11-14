@@ -1,4 +1,4 @@
-# Manual de configuració
+# Manual d'instalació
 
 ## Configuració del sistema de virtualització (IsardVDI)
 
