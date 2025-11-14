@@ -4,7 +4,7 @@
 
 - Entra a la interfície web d’IsardVDI mitjançant el navegador.
 
-![cap1](captura.md/cap1)
+![Cap1](captura.md/Cap1)
 - Inicia sessió amb un usuari amb permisos d’administrador.
   
 ![captura](https://github.com/user-attachments/assets/806aa7fc-d6b6-4f3c-b722-e50d21853dd0)
