@@ -2,7 +2,6 @@
 
 ## Configuració del sistema de virtualització (IsardVDI)
 
-### Proces de configuració
 - Entra a la interfície web d’IsardVDI mitjançant el navegador.
 <img width="986" height="270" alt="image" src="https://github.com/user-attachments/assets/e227286d-f694-472d-b754-46b29c89f85d" />
 
@@ -30,4 +29,5 @@
 - Crea la màquina
 <img width="283" height="118" alt="image" src="https://github.com/user-attachments/assets/ac68aa4e-e0a3-4b5f-996b-dfe9e1172755" />
 
+## Procés de instalació d'ownCLOUD
 
