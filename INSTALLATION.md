@@ -29,5 +29,6 @@
 - Crea la màquina
 <img width="283" height="118" alt="image" src="https://github.com/user-attachments/assets/ac68aa4e-e0a3-4b5f-996b-dfe9e1172755" />
 
-## Procés de instalació d'ownCLOUD
+## Procés de configuració del sistema operatiu del sistema
+
 
