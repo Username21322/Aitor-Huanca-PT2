@@ -42,3 +42,42 @@
 ![captura]<img width="299" height="307" alt="image" src="https://github.com/user-attachments/assets/1d668d91-dc10-4669-96f1-205b9cf40b2d" />
 
 
+
+## Procés d'instalació de gestor d'arxius "NextCloud"
+### Configuració del sistema operatiu (LAMP)
+Abans de tot es selecciona a la part de configuració de l'usuari "Ubuntu" en comptes de Ubuntu en Xorg
+
+<img width="605" height="182" alt="image" src="https://github.com/user-attachments/assets/eda46062-ff80-4aae-9cff-320defcbcf59" />
+
+La contraseña es "usuario"
+
+Una vez dentro de la máquina busca "CMD" o "Terminal" y abrelo para hacer la configuración.
+
+<img width="592" height="279" alt="image" src="https://github.com/user-attachments/assets/9776c71a-c55d-4536-923b-df2676020f8e" />
+
+#### 1. Actualiza el Sistema con el comando siguiente:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+#### 2. Instala Apache
+
+```bash
+sudo apt install apache2 -y
+```
+
+#### 3. Inicia el servicio
+
+```bash
+sudo systemctl enable apache2
+sudo systemctl start apache2
+```
+
+#### 4. Verifica el esatado
+
+```bash
+sudo systemctl status apache2
+```
+Para ver la pagina predeterminada de Apache escribe en google el enlaze en la maquina virtual. Enlace: `http://localhost`
+
+#### 5. Instala MySQL
