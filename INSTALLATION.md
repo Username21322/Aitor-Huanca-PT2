@@ -66,7 +66,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install apache2 -y
 ```
 
-#### 3. Inicia el servicio
+#### 3. Habilita/Inicia el servicio
 
 ```bash
 sudo systemctl enable apache2
@@ -81,3 +81,14 @@ sudo systemctl status apache2
 Para ver la pagina predeterminada de Apache escribe en google el enlaze en la maquina virtual. Enlace: `http://localhost`
 
 #### 5. Instala MySQL
+
+```bash
+sudo apt install mysql-server mysql-client -y
+```
+
+#### 6. Habilita/Inicia el servicio
+
+```bash
+sudo systemctl enable mysql
+sudo systemctl start mysql
+```
