@@ -78,7 +78,7 @@ sudo systemctl start apache2
 ```bash
 sudo systemctl status apache2
 ```
-Para ver la pagina predeterminada de Apache escribe en google el enlaze en la maquina virtual. Enlace: `http://localhost`
+Para ver la pagina predeterminada de Apache escribe en google el enlaze EN LA MÁQUINA VIRTUAL. Enlace: `http://localhost`
 
 #### 5. Instala MySQL
 
