@@ -164,3 +164,16 @@ sudo nano /etc/apache2/sites-available/domini.local.conf
     CustomLog ${APACHE_LOG_DIR}/domini.local_access.log combined
 </VirtualHost>
 ```
+#### 3. Habilita VirtualHost
+
+```bash
+sudo a2ensite domini.local.conf
+```
+
+#### 4. Reinicia Apache2
+
+```bash
+sudo systemctl restart apache2
+```
+
+#### 5. 
