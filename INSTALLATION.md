@@ -86,9 +86,50 @@ Para ver la pagina predeterminada de Apache escribe en google el enlaze EN LA M�
 sudo apt install mysql-server mysql-client -y
 ```
 
-#### 6. Habilita/Inicia el servicio
+#### 6. Habilita/Inicia el servicio de MySQL
 
 ```bash
 sudo systemctl enable mysql
 sudo systemctl start mysql
 ```
+#### 7. Accede a la consola de MySQL
+
+```bash
+sudo mysql
+```
+#### 8. Crea la base de datos
+
+```sql
+CREATE DATABASE bbdd;
+```
+#### 9. Creación del usuario local
+
+```sql
+CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+GRANT ALL PRIVILEGES ON bbdd.* TO 'usuario'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+```
+#### 10. Instala PHP y sus extensiones comunes
+
+```bash
+sudo apt install php libapache2-mod-php php-mysql php-curl php-gd php-mbstring php-xml php-zip php-json php-cli -y
+```
+#### 11. Reinicia APACHE para cargar PHP
+
+```bash
+sudo systemctl restart apache2
+```
+
+#### 12. Verifica la versión de PHP
+
+```bash
+php -v
+```
+
+#### 13. Crea un fitxero de prueba 
+
+```bash
+echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
+```
+##### Visita `http://localhost/info.php` para ver la información de PHP
