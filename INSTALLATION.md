@@ -139,3 +139,28 @@ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
 ```bash
  sudo rm /var/www/html/info.php
 ```
+### Configuració de VirtualHost
+
+#### 1. Ponemos un ejemplo
+
+```bash
+sudo mkdir -p /var/www/domini.local
+```
+#### 2. Definimosw VirtualHost
+
+```bash
+sudo nano /etc/apache2/sites-available/domini.local.conf
+```
+
+##### Pon la configuración siguiente:
+
+```apache
+<VirtualHost *:80>
+    ServerAdmin admin@domini.local
+    ServerName www.domini.local
+    ServerAlias domini.local
+    DocumentRoot /var/www/domini.local
+    ErrorLog ${APACHE_LOG_DIR}/domini.local_error.log
+    CustomLog ${APACHE_LOG_DIR}/domini.local_access.log combined
+</VirtualHost>
+```
