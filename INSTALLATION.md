@@ -133,3 +133,9 @@ php -v
 echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
 ```
 ##### Visita `http://localhost/info.php` para ver la información de PHP
+
+#### 13.1 Después de comprobar que este bien, elimina el archivo
+
+```bash
+ sudo rm /var/www/html/info.php
+```
