@@ -1,3 +1,32 @@
 # Manual d'instal·lació d’ownCloud amb virtualització mitjançant IsardVDI
 
-## Demostració del funcionamenty
+## Demostració del funcionament
+
+### Pujar un Arxiu
+#### Primerament hem d'anar a la part de "arxius" de NextCloud, que en anglés seria "Files"
+
+<img width="891" height="227" alt="image" src="https://github.com/user-attachments/assets/66b0a008-5884-45f6-82f7-1ca887a04d83" />
+
+#### Seguidament li donem al boto on diu "Nou" o en anglés que seria "New"
+
+<img width="202" height="37" alt="image" src="https://github.com/user-attachments/assets/1bcd31f6-c1e9-404b-aa9f-2bdb273e839f" />
+
+#### Després fem click a "Penjar Fitxer" o "Upload Files"
+
+<img width="298" height="321" alt="image" src="https://github.com/user-attachments/assets/d64eff2f-a14e-4792-b2bc-0e6194803fc8" />
+
+### Crear una carpeta
+
+#### Al mateix apartat  on pujem un fitxer, li donem a "New Folder" o "Nova Carpeta"
+
+<img width="280" height="293" alt="image" src="https://github.com/user-attachments/assets/9acf3b51-5476-4383-8ae3-a800afb60134" />
+
+#### Compartició de continguts
+
+<img width="583" height="388" alt="image" src="https://github.com/user-attachments/assets/25a8fd41-c3d2-4179-8f3f-a2704831dd41" />
+
+
+<img width="277" height="343" alt="image" src="https://github.com/user-attachments/assets/2aa88457-0c16-45a1-b546-3d18b202462d" />
+
+### Creació d'usuaris
+
