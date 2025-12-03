@@ -278,12 +278,6 @@ Aquesta guia explica com instal·lar **Nextcloud** o **ownCloud** en un entorn o
    ```bash
    sudo unzip /ruta/al/arxiu.zip
    ```
-   > Si l’arxiu crea una carpeta interna (ex: `nextcloud/` o `owncloud/`), assegura’t que el contingut es mogui **al nivell arrel** del virtual host:
-   ```bash
-   sudo mv nextcloud/* . && sudo rmdir nextcloud
-   # o
-   sudo mv owncloud/* . && sudo rmdir owncloud
-   ```
 
    - **Podeu fer això directament si ho teniu descomprimit a `Descargas`:**
    ```bash
