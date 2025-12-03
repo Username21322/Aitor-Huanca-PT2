@@ -3,9 +3,9 @@
 # Demostració del funcionament
 
 ### Pujar un Arxiu
-#### Primerament hem d'anar a la part de "arxius" de NextCloud, que en anglés seria "Files"
+#### Primerament hem d'anar a la part de "Arxius" de NextCloud, que en anglés seria "Files"
 
-<img width="891" height="227" alt="image" src="https://github.com/user-attachments/assets/66b0a008-5884-45f6-82f7-1ca887a04d83" />
+![hola](Imagenes/imagen1.png)
 
 #### Seguidament li donem al boto on diu "Nou" o en anglés que seria "New"
 
