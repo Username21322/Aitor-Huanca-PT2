@@ -66,6 +66,8 @@ Quan li donem a aquest botó, ens sortira dues maneres de compartir el contingut
 <img width="407" height="588" alt="image" src="https://github.com/user-attachments/assets/e3d4e720-57b8-4b73-807d-6f8f3c525750" />
 
 ## Assignació de rols i permisos
+### En aquest punt, com ja hem fet els grups i hem posat les comptes a cada grup, llavors cada compta ja te els seus propis rols.
+
 - **Administrador**: pot crear, editar, eliminar i compartir fitxers.  
 - **Editor**: pot crear i modificar fitxers, però no eliminar carpetes compartides ni gestionar usuaris.  
 - **Visualitzador**: només pot obrir i llegir fitxers, sense editar ni eliminar.  
