@@ -49,6 +49,9 @@ Quan li donem a aquest botó, ens sortira dues maneres de compartir el contingut
 <img width="289" height="81" alt="image" src="https://github.com/user-attachments/assets/57d9ad58-c309-4d2d-b692-241416ee5a1e" />
 
 ### Crea els 3 usuaris necesaris:
+#### - **Primer crea els Grups: "Admin" "Editor" "Visualitzadors"**
+
+<img width="184" height="117" alt="image" src="https://github.com/user-attachments/assets/a941d12b-97a0-4a50-ae75-4bddfdb2f5d7" />
 
    - Usuari: **Administrador** → assignat al **grup Admin**.
 
