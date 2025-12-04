@@ -73,8 +73,40 @@ Quan li donem a aquest botó, ens sortira dues maneres de compartir el contingut
 - **Visualitzador**: només pot obrir i llegir fitxers, sense editar ni eliminar.  
 
 ### Demostració
-- Iniciant sessió com *Visualitzador*, no apareixen opcions d’edició.  
-- Iniciant sessió com *Editor*, es poden modificar documents però no eliminar-los si no són propis.  
+- Des de la compta principal, crea una carpeta per fer la prova, seguidament comparteix la carpeta amb les 3 comptes que vam crear.
+  
+- Seguidament crea un arxiu on pots posar el que vulguis ja que és una prova.
+
+<img width="855" height="364" alt="image" src="https://github.com/user-attachments/assets/72186c16-176f-4aa5-9cc1-31e598a335b6" />
+
+#### Administrador
+- Primerament la farem amb la compta Admin, on posarem "Custom permisions" i posem totes les opcions que posen a la part de "Custom permissions"
+
+<img width="858" height="737" alt="image" src="https://github.com/user-attachments/assets/660a5896-c25e-488f-8b2d-6d3ca9cd33f8" />
+
+- Seguidament veiem a la part de "Files", la carpeta que vam compartir i veuras que pots fer tot.
+
+<img width="863" height="289" alt="image" src="https://github.com/user-attachments/assets/68b81948-f3c3-4356-835c-8ac2d89a2638" />
+
+#### Visualitzador 
+- Primerament la farem amb la compta visualitzador, on posarem "View Only"
+
+<img width="857" height="442" alt="image" src="https://github.com/user-attachments/assets/86ad1baa-d99b-4ddf-9a9a-f323d74cda3f" />
+
+- Seguidament iniciem sessió com *Visualitzador*
+- Seguidament veiem a la part de "Files", la carpeta que vam compartir i veuras que només la pots veure
+  
+<img width="856" height="266" alt="image" src="https://github.com/user-attachments/assets/9a5654d3-798d-4e8b-88a5-37cb8c751ee0" />
+
+#### Editor
+- Primerament la farem amb la compta Editor, on posarem "Allow editing"
+
+<img width="857" height="446" alt="image" src="https://github.com/user-attachments/assets/0bafb86b-e693-4cd2-acfe-b4899377a3b6" />
+
+- Seguidament iniciem sessió com *Editor*, on es poden modificar documents però no eliminar-los si no són propis.  
+- Seguidament veiem a la part de "Files", la carpeta que vam compartir i veuras que podem modificar documents però no eliminar-los si no són propis.
+
+<img width="861" height="261" alt="image" src="https://github.com/user-attachments/assets/d5121b44-bab8-4322-a829-f91bb7c8ae03" />
 
 
 
