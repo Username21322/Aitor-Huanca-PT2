@@ -22,6 +22,7 @@
 ![hola](Imagenes/3Imagen.png)
 
 - Assigna la màquina a la xarxa virtual "puigcastellar1".
+
 ![hola](Imagenes/4Imagen.png)
 
 - Habilita accés remot (RDP, SPICE o VNC), preferiblement "SPICE".
