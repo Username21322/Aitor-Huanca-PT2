@@ -11,6 +11,7 @@
 - Introdueix les dades bàsiques:
     - Nom de la màquina (ex: owncloud-server)
     - Sistema operatiu "Ubuntu-24.04-desktop"
+  
 ![hola](Imagenes/2Imagen.png)
 
 - Configura la màquina a la part de "HARDWARE":
