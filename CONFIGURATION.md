@@ -101,12 +101,12 @@ Quan li donem a aquest botó, ens sortira dues maneres de compartir el contingut
 #### Editor
 - Primerament la farem amb la compta Editor, on posarem "Allow editing"
 
-![Captura](Imagenes/imagen21.png)
+![Captura](Imagenes/imagen20.png)
 
 - Seguidament iniciem sessió com *Editor*, on es poden modificar documents però no eliminar-los si no són propis.  
 - Seguidament veiem a la part de "Files", la carpeta que vam compartir i veuras que podem modificar documents però no eliminar-los si no són propis.
 
-![Captura](Imagenes/imagen22.png)
+![Captura](Imagenes/imagen21.png)
 
 # Administració d’arxius a Nextcloud
 
