@@ -42,28 +42,28 @@ Quan li donem a aquest botó, ens sortira dues maneres de compartir el contingut
 ## Configuració d’usuaris
 ### Per crear els usuaris ves a la part d'adalt on diu "Nova Compta" o "New account":
 
-<img width="279" height="101" alt="image" src="https://github.com/user-attachments/assets/023007a6-d603-49af-b4a2-29c4b129d0f1" />
+![Captura](Imagenes/imagen9.png)
 
 ### Per crear els grups has d'anara a la part on diu "Groups" o "Grups" i donar-li al botó "+"
 
-<img width="289" height="81" alt="image" src="https://github.com/user-attachments/assets/57d9ad58-c309-4d2d-b692-241416ee5a1e" />
+![Captura](Imagenes/imagen10.png)
 
 ### Crea els 3 usuaris necesaris:
 #### - **Primer crea els Grups: "Admin" "Editor" "Visualitzadors"**
 
-<img width="184" height="117" alt="image" src="https://github.com/user-attachments/assets/a941d12b-97a0-4a50-ae75-4bddfdb2f5d7" />
+![Captura](Imagenes/imagen11.png)
 
    - Usuari: **Administrador** → assignat al **grup Admin**.
 
-<img width="410" height="616" alt="image" src="https://github.com/user-attachments/assets/15553023-3fa3-4bef-a0d7-e4a2f66461fe" />
+![Captura](Imagenes/imagen12.png)
 
    - Usuari: **Editor** → assignat al **grup Editors**.
 
-<img width="405" height="587" alt="image" src="https://github.com/user-attachments/assets/4e4b796b-9d64-4488-8d14-8907dc75272b" />
+![Captura](Imagenes/imagen13.png)
 
    - Usuari: **Visualitzador** → assignat al **grup Visualitzadors**.  
 
-<img width="407" height="588" alt="image" src="https://github.com/user-attachments/assets/e3d4e720-57b8-4b73-807d-6f8f3c525750" />
+![Captura](Imagenes/imagen14.png)
 
 ## Assignació de rols i permisos
 ### En aquest punt, com ja hem fet els grups i hem posat les comptes a cada grup, llavors cada compta ja te els seus propis rols.
@@ -77,36 +77,36 @@ Quan li donem a aquest botó, ens sortira dues maneres de compartir el contingut
   
 - Seguidament crea un arxiu on pots posar el que vulguis ja que és una prova.
 
-<img width="855" height="364" alt="image" src="https://github.com/user-attachments/assets/72186c16-176f-4aa5-9cc1-31e598a335b6" />
+![Captura](Imagenes/imagen15.png)
 
 #### Administrador
 - Primerament la farem amb la compta Admin, on posarem "Custom permisions" i posem totes les opcions que posen a la part de "Custom permissions"
 
-<img width="858" height="737" alt="image" src="https://github.com/user-attachments/assets/660a5896-c25e-488f-8b2d-6d3ca9cd33f8" />
+![Captura](Imagenes/imagen16.png)
 
 - Seguidament veiem a la part de "Files", la carpeta que vam compartir i veuras que pots fer tot.
 
-<img width="863" height="289" alt="image" src="https://github.com/user-attachments/assets/68b81948-f3c3-4356-835c-8ac2d89a2638" />
+![Captura](Imagenes/imagen17.png)
 
 #### Visualitzador 
 - Primerament la farem amb la compta visualitzador, on posarem "View Only"
 
-<img width="857" height="442" alt="image" src="https://github.com/user-attachments/assets/86ad1baa-d99b-4ddf-9a9a-f323d74cda3f" />
+![Captura](Imagenes/imagen18.png)
 
 - Seguidament iniciem sessió com *Visualitzador*
 - Seguidament veiem a la part de "Files", la carpeta que vam compartir i veuras que només la pots veure
   
-<img width="856" height="266" alt="image" src="https://github.com/user-attachments/assets/9a5654d3-798d-4e8b-88a5-37cb8c751ee0" />
+![Captura](Imagenes/imagen19.png)
 
 #### Editor
 - Primerament la farem amb la compta Editor, on posarem "Allow editing"
 
-<img width="857" height="446" alt="image" src="https://github.com/user-attachments/assets/0bafb86b-e693-4cd2-acfe-b4899377a3b6" />
+![Captura](Imagenes/imagen21.png)
 
 - Seguidament iniciem sessió com *Editor*, on es poden modificar documents però no eliminar-los si no són propis.  
 - Seguidament veiem a la part de "Files", la carpeta que vam compartir i veuras que podem modificar documents però no eliminar-los si no són propis.
 
-<img width="861" height="261" alt="image" src="https://github.com/user-attachments/assets/d5121b44-bab8-4322-a829-f91bb7c8ae03" />
+![Captura](Imagenes/imagen22.png)
 
 # Administració d’arxius a Nextcloud
 
