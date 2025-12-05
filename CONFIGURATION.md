@@ -108,26 +108,86 @@ Quan li donem a aquest botó, ens sortira dues maneres de compartir el contingut
 
 <img width="861" height="261" alt="image" src="https://github.com/user-attachments/assets/d5121b44-bab8-4322-a829-f91bb7c8ae03" />
 
+# Administració d’arxius a Nextcloud
+
+## Organització de carpetes i fitxers
+
+### Objectiu
+Crear una jerarquia lògica de carpetes per mantenir els documents ordenats.
+
+### Crear l’estructura de carpetes
+**Instruccions (en anglès):**
+1. Log in to your Nextcloud account.  
+2. Go to **Files**.  
+3. Click **+ New folder**.  
+4. Create the following folders:  
+   - **Documents Personals**  
+   - **Treball Compartit**  
+   - **Recursos**  
+5. Open **Treball Compartit** and create subfolders:  
+   - **Equip A**  
+   - **Equip B**
+   
+## Polítiques de seguretat
+
+### Objectiu
+Activar opcions de seguretat com la caducitat dels enllaços compartits i l’obligació de contrasenya.
+
+### Activar polítiques de seguretat
+**Instruccions (en anglès):**
+1. Log in as **admin**.  
+2. Go to **Settings → Administration → Sharing**.  
+3. Enable:  
+   - **"Enforce expiration date for public links"**  
+   - **"Enforce password protection for public links"**  
+   - Optional: **"Allow users to share via link"**
 
 
-## Administració d’arxius
-### Jerarquia de carpetes
-- `Documents_Personals` → privats per cada usuari.  
-- `Treballs_Compartits` → Editors i Administradors.  
-- `Recursos` → tots els usuaris, inclosos Visualitzadors.  
+### 2.2 Crear un enllaç compartit amb restriccions
+**Instruccions (en anglès):**
+1. Go to **Files**.  
+2. Select a folder and click **Share**.  
+3. Enable **Share link**.  
+4. Set:  
+   - An expiration date  
+   - A password  
+5. Test the link in another browser.
 
-### Polítiques de seguretat
-- Caducitat d’enllaços compartits (ex. 7 dies).  
-- Contrasenya obligatòria per a enllaços externs.  
-- Bloqueig de descàrregues per a Visualitzadors.  
+---
 
+## 3. Accés des de qualsevol màquina de la xarxa
 
+### 3.1 Obtenir la IP de la màquina virtual
+- A Linux VM: `ip a`
+- A Windows VM: `ipconfig`
+  
+### 3.2 Accedir a Nextcloud des d’una altra màquina
 
-## Accés des d’una màquina de la xarxa
-1. Configura la màquina virtual amb una IP fixa.  
-2. Des d’un altre dispositiu de la mateixa xarxa, accedeix via navegador:  
+**Instruccions (en anglès):**
+1. Open a browser on another device connected to the same network.  
+2. Enter: `http://<IP-de-la-MV>/nextcloud`
+3. Inicia sesió amb les teves credencials
 
-```bash
-http://IP_de_la_VM/nextcloud
+### 3.3 Permetre accés al firewall (si és necessari)
 
+**Instruccions (en anglès):**
+- `sudo ufw allow 80/tcp`
+- `sudo ufw allow 443/tcp`
+## 4. (Extra) Accés a clouds de companys
 
+### Objectiu
+Afegir comptes externs de Nextcloud i navegar-hi.
+
+### Afegir comptes externs
+**Instruccions (en anglès):**
+1. Log in to your Nextcloud.  
+2. Go to **Settings → Connected Accounts**.  
+3. Click **Add Nextcloud account**.  
+4. Enter the server URL, username and app password.  
+5. Save.
+
+### Navegar pels comptes externs
+**Instruccions (en anglès):**
+1. Go to **Files**.  
+2. Look for the new external folder.  
+3. Open it to browse shared files.
